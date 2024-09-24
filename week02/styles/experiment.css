@@ -14,10 +14,17 @@ h1{
 img{
     width: 200;
     height: auto;
-    border: 2px solid steelblue;
-    padding: 4px;
+    border: 30px dashed black;
+    
+    padding: 10px;
+    background-color:pink;
     box-shadow: 0 0 30px gray;
 }
+
+.profile{
+    border-color:green;
+}
+
 p{
     padding: 20px;
     color: steelblue;
