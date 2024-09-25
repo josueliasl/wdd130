@@ -7,6 +7,23 @@ nav a {
     color: #fff;
     padding: 25px;
 }
+h1 {
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      translate: 150vw 0;
+      scale: 200% 1;
+    }
+  
+    to {
+      translate: 0 0;
+      scale: 100% 1;
+    }
+  }
+  
 h1{
     color:steelblue;
     padding: 15px;
@@ -24,5 +41,5 @@ p{
 }
 section{
     width: 600px;
-    
+    text-align: center;
 }
