@@ -5,7 +5,7 @@ nav{
 nav a {
     color:white;
     display:block;
-    padding:20px;
+    padding:10px;
 }
 h1{
     color:steelblue;
@@ -51,5 +51,4 @@ footer{
     text-align:center;
     background-color: steelblue;
     color:white;
-    box-shadow: 0 o 30px gray;
 }
