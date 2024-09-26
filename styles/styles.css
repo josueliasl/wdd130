@@ -19,9 +19,6 @@ main img{
     box-shadow: 0 0 30px gray;
     margin: 20px;
 }
-main p{
-    padding:0px;
-}
 main{
     max-width:840px;
 }
@@ -35,7 +32,7 @@ aside{
     text-align: center;
     outline:auto;
 }
-aside p{
+p{
     padding:0px;
 }
 aside img{
