@@ -1,36 +1,47 @@
+:root{
+    --background-color:#F3F9FB;
+    --main-txt-color: white;
+    --main-color:#226597;
+    --second-chart-background: #87C0CD;
+    --font-family:'sans serif', helvetica, arial;
+    --padding:15px;
+    --margin: 35px;
+}
+
 nav{
-    background-color: steelblue;
-    padding:10px
+    background-color: var(--main-color);
+    padding: var(--padding);
 }
 nav a {
-    color:white;
+    color:var(--background-color);
     display:block;
-    padding:10px;
+    padding: var(--padding)
 }
 h1{
-    color:steelblue;
-    padding-left: 15px;
+    color: var(--main-color);
+    padding-left:var(--padding)
 }
 main img{
     width:150px;
     height: auto;
-    border: 1px solid steelblue;
+    border: 1px solid var(--main-color);
     padding: 2px;
     box-shadow: 0 0 30px gray;
-    margin: 20px;
+    margin: var(--margin);
 }
 main{
     max-width:840px;
 }
 aside{
     width:300px;
-    margin:25px 15px;
+    margin: var(--margin);
     box-shadow:0 0 30px gray;
-    border:3px steelblue;
-    background-color: steelblue;
-    color:white;
-    text-align: center;
+    border:3px var(--main-color);
+    background-color: var(--main-color);
+    color: var(--background-color);
+    text-align: justify;
     outline:auto;
+    padding: var(--padding);
 }
 p{
     padding: 0;
@@ -40,12 +51,12 @@ aside img{
     align-items: center;
 }
 h2{
-    padding-top:20px;
+    padding-top:var(--padding);
 }
 footer{
-    margin-top: 50px;
+    margin-top: var(--padding);
     border:1px solid steelblue;
     text-align:center;
-    background-color: steelblue;
-    color:white;
+    background-color: var(--main-color);
+    color: var(--background-color);
 }
