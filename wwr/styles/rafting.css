@@ -59,19 +59,18 @@ header, footer{
     height: auto;
     opacity: 0.5;
 }
-h1, article{
-    position:absolute;
-}
 h1{
     margin-top: -840px;
     color: #264969;
     padding-left: 556px;
+    position:absolute;
 }
 article{
     background-color: var(--secondary-color);
     color:#cfcfb4;
+    position:absolute;
 }
-article p{
+.mission{
     margin-top: -480px;
     display:flex;
     justify-content:center;
