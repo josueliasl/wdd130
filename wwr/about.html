@@ -8,25 +8,27 @@
         <meta name="author" content="Josue Elias Leyva">
         <link rel="stylesheet" href="styles/rafting.css">
         <link rel="preconnect" href="https://fonts.google.com/specimen/Open+Sans"> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
         <header>
-          <img src="styles/rafting.css" alt="The logo of our rafting company">
-          <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About Us</a>
-            <a href="trips.html">Trips</a>
-            <a href="contact.html">Contact Us</a>
+          <img class="logo" src="images/logo.jpg" alt="The logo of our rafting company">
+          <nav class="pages">
+            <a id="index" href="index.html">Home</a>
+            <a id="about" href="about.html">About Us</a>
+            <a id="trips" href="trips.html">Trips</a>
+            <a id="contact" href="contact.html">Contact Us</a>
           </nav>
         </header>
         <main>
             <div class="hero">
-              <img src="images/hero.avif" alt="Cover">
+              <img id="hero" src="images/hero.avif" alt="Cover" widht="1400" height="auto">
               <h1>Rafting adventure</h1>
               <article>
-                <img src="images/little-hero.jpg" alt="Happy customers">
                 <p>"At Rafting Adventures, our purpose is to offer thrilling, safe, and eco-friendly rafting adventures that connect people with nature, promote teamwork, and inspire environmental stewardship."</p>
+                <img class="little-hero" src="images/little-hero.jpg" alt="Happy customers" width="100" height="100">
               </article>
+            </div>
               <section class="history">
                 <h2>History</h2>
                 <p>Our company was founded by a group of lifelong friends with a passion for rafting and a deep love for nature. Inspired by their experiences growing up near rivers, they created a company focused on providing thrilling, eco-friendly adventures that connect people with the outdoors. Committed to sustainability, they use environmentally responsible practices and support local conservation efforts. Their mission is to create unforgettable experiences while fostering a sense of stewardship for the natural world.</p>
@@ -35,25 +37,18 @@
                 <h2>Adventure Awaits You!</h2>
                 <img src="images/img1.jfif" alt="Image of people living the adventure 1">
                 <img src="images/img2.webp" alt="Image of people living the adventure 2">
-                <img src="images/img3.jfif" alt="Image of people living the adventure 3">
+                <img src="images/img3.jpg" alt="Image of people living the adventure 3">
                 <img src="images/img4.jfif" alt="Image of people living the adventure 4">
                 <img src="images/img5.jfif" alt="Image of people living the adventure 5">
               </section>
-            </div>
         </main>
         <footer>
-            <p>© 2024 │ Rafting Adventure │ Josue Leyva</p>
-            <nav class="sociallinks">
-                <a href="https://www.facebook.com/josue.leyvagiz" target="_blank">
-                    <img src="images/facebook.jfif" alt="facebook icon">
-                </a>
-                <a href="https://www.instagram.com/" target="_blank">
-                    <img src="images/insta.jfif" alt="instagram icon">
-                </a>
-                <a href="https://www.youtube.com/" target="_blank">
-                    <img src="images/youtube.jfif" alt="youtube icon">
-                </a>
-            </nav>
+            <p id="pfoot">© 2024 │ Rafting Adventure │ Josue Leyva</p>
+            <div class="sociallinks">
+                <i id="facebook" class="fa fa-facebook-official" style="font-size: 36px"></i>
+                <i id="instagram" class="fa fa-instagram" style="font-size: 36px"></i>
+                <i id="youtube" class="fa fa-youtube-play" style="font-size: 36px"></i> 
+            </div>
         </footer>
     </body>
 </html>
