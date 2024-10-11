@@ -16,16 +16,29 @@
 
 nav{
     background-color: var(--main-color);
-    padding: var(--padding);
+    padding: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 3px solid steelblue;
+    
 }
 nav a {
     color:var(--background-color);
     display:block;
-    padding: var(--padding)
+    text-decoration: none;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
 }
 h1{
+    margin-top:10px;
     color: var(--main-color);
-    padding-left:var(--padding)
+    padding-left:var(--padding);
+    border-bottom: solid var(--main-color);
+    margin-bottom: 20px;
+    padding:8px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 main img{
     width:150px;
@@ -36,26 +49,24 @@ main img{
     margin: var(--margin);
     float:right;
 }
-main{
-    max-width:840px;
-}
 
 p{
     padding: 0;
 }
 aside img{
-    width:300px;
-    align-items: center;
+    width:220px;
+    display: flex;
+    align-content: center;
+    margin-bottom: 15px;
 }
-h2{
-    padding-top:var(--padding);
-}
+
 footer{
     margin-top: var(--padding);
-    border:1px solid steelblue;
     text-align:center;
-    background-color: var(--main-color);
-    color: var(--background-color);
+
+    color: black;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
 }
 /*Class Selectors*/
 
@@ -65,17 +76,50 @@ footer{
     padding: 1rem;
     background-color: var(--main-color);
     color: var(--main-txt-color) ;
-    width:500px;
+    max-width:400px;
+    max-height: 1000px;
     box-shadow:0 0 30px gray;
     text-align: justify;
     outline:auto;
     padding: var(--padding);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify, center;
 }
-aside{
-    position: relative;
-}
+
 aside h2{
     position:absolute;
-    color: black;
-    margin-top: -10px;
+    color: var(--background-color);
+    margin-top: 320px;
+}
+header, .grid, footer{
+    max-width: 840px;
+    margin: 0 auto;
+}
+.grid{
+    display: grid;
+    align-items: center;
+}
+main{
+    grid-column: 2/3;
+    margin: 1rem;
+    max-width: 300px;
+}
+
+aside{
+    grid-column: 20rem;
+    position: relative;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    position: relative;
+}
+.temple{
+    background-color: rgba(128, 128, 128, 0.486) ;
+    border: 1rem;
+    margin: 1rem;
+    padding: 1rem;
+    text-align: justify;
+    outline:auto;
+    padding: var(--padding);
 }

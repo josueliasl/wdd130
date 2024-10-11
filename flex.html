@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Flexbox 0 — starting code</title>
+    <style>
+        html {
+            font-family: sans-serif;
+        }
+
+        body {
+            margin: 0;
+        }
+
+        header {
+            background: purple;
+            height: 100px;
+        }
+
+        h1 {
+            text-align: center;
+            color: white;
+            line-height: 100px;
+            margin: 0;
+        }
+
+        article {
+            padding: 10px;
+            margin: 10px;
+            background: aqua;
+            
+        }
+
+        /* Add your flexbox CSS below here */
+        section{
+            display: flex;
+            /*
+            Flex
+
+When using the property of {display: flex; } the elements that are laid out in a 
+column will become a row:
+
+before display:flex;
+1 -
+2 -
+3 -
+
+after display:flex;
+1-   2-   3-
+
+So the flex container, be the tag, class or id and its children 
+become flex items.
+
+•Flex-direction (by default it is a row)-->
+
+*Important: Your elements will be displayed in the natural order of your HTML (AS IT IS WRITTEN). 
+Consider that if you don't use {display:flex} the content will be a column that cannot be moved to
+the center, you can use float: right/left with margin: right/left to center it, but flex
+will send it there elegantly and without issues of the screen's dimensions..
+
+Because {display: flex;} is already changing the natural column to a row, but maybe you
+ want a column in the center then you can select: x{display: flex;
+                                                   flex-direction:column}
+
+flex-direction row-reverse : It modifies the order from the beginning to the end and 
+in a row:
+
+Before: 1- 2- 3-    After: 3- 2- 1-
+
+*x{flex-direction: column-reverse;} It does the same but in a column
+Before      After
+1-          3-
+2-          2-
+3-          1-
+
+
+            */
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Sample flexbox example</h1>
+    </header>
+
+    <section>
+        <article>
+            <h2>First article</h2>
+
+            <p>Tacos actually microdosing, pour-over semiotics banjo chicharrones retro fanny pack portland everyday
+                carry vinyl typewriter. Tacos PBR&B pork belly, everyday carry ennui pickled sriracha normcore hashtag
+                polaroid single-origin coffee cold-pressed. PBR&B tattooed trust fund twee, leggings salvia iPhone photo
+                booth health goth gastropub hammock.</p>
+        </article>
+
+        <article>
+            <h2>Second article</h2>
+
+            <p>Tacos actually microdosing, pour-over semiotics banjo chicharrones retro fanny pack portland everyday
+                carry vinyl typewriter. Tacos PBR&B pork belly, everyday carry ennui pickled sriracha normcore hashtag
+                polaroid single-origin coffee cold-pressed. PBR&B tattooed trust fund twee, leggings salvia iPhone photo
+                booth health goth gastropub hammock.</p>
+        </article>
+
+        <article>
+            <h2>Third article</h2>
+
+            <p>Tacos actually microdosing, pour-over semiotics banjo chicharrones retro fanny pack portland everyday
+                carry vinyl typewriter. Tacos PBR&B pork belly, everyday carry ennui pickled sriracha normcore hashtag
+                polaroid single-origin coffee cold-pressed. PBR&B tattooed trust fund twee, leggings salvia iPhone photo
+                booth health goth gastropub hammock.</p>
+
+            <p>Cray food truck brunch, XOXO +1 keffiyeh pickled chambray waistcoat ennui. Organic small batch paleo
+                8-bit. Intelligentsia umami wayfarers pickled, asymmetrical kombucha letterpress kitsch leggings
+                cold-pressed squid chartreuse put a bird on it. Listicle pickled man bun cornhole heirloom art party.
+            </p>
+        </article>
+    </section>
+</body>
+
+</html>
