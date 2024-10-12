@@ -161,6 +161,6 @@ figure{
 figcaption {
     margin-top: 5px; /* Space between image and caption */
     font-size: 14px; /* Smaller font size for caption */
-    color: #333; /* Dark color for caption */
+    color: #333;
 }
             
