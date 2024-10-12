@@ -96,7 +96,7 @@ article{
     align-self: center;
     grid-row: 3/4;
     background-color:#505033c5;
-    color:var(--accent1-color);
+    color:#fff;
 }
 
 .history-content{
