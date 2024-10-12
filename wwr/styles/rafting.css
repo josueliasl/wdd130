@@ -156,9 +156,9 @@ article{
 figure{
         margin: 0; /* Remove default margin */
         text-align: center; /* Center the text */
-        background-color: var(--accent1-color); /* White background for figures */
-        border: 3px solid var(--main-color); /* Light border */
-        border-radius: 8px; /* Rounded corners */
+        background-color: var(--accent1-color); 
+        border: 3px solid var(--main-color); 
+        border-radius: 8px; 
         padding: 10px; /* Padding inside figures */
         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Light shadow */
 }
