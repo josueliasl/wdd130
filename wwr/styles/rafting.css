@@ -5,13 +5,13 @@
     --accent2-color: #B4CDE4;
 }
 
+
 h2{
     font-family: opensans, sans-serif, arial, helvetica;
     font-size: 2rem;
-    color:var(--secondary-color);
-    text-align:center;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    text-align: center;
+    color: var(--main-color);
+   
 }
 .logo{
     display: flex;
@@ -41,7 +41,7 @@ p{
 footer{
     background-color: var(--main-color);
     color: #cfcfb4;
-    padding: 3px;
+    padding: 5px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -83,17 +83,12 @@ h1{
 
 
 .little-hero{
-    width:200px;
+    width:250px;
     height:auto;
     padding:15px;
     
 }
-.adventure{
-    width: 200px;
-    height:160px;
-    margin-bottom: 20px;
-    margin-left: 25px;
-}
+
 article{
     display:flex;
     justify-content: center;
@@ -103,3 +98,69 @@ article{
     background-color:#505033c5;
     color:var(--accent1-color);
 }
+
+.history-content{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    align-self: center;
+    background-color:var(--main-color);
+    color:var(--accent1-color);
+    margin-top: 10px;
+    margin-bottom: 30px;
+    max-width: 1400px;
+    max-height:250px
+}
+#his-cen{
+    padding: 10px;
+    width:200px;
+    height:auto;
+}
+.history{
+    display:grid;
+    justify-content: center;
+    align-items:center;
+    align-self: center;
+    grid-template-rows: 1fr;
+    
+}
+
+#adventures{
+    text-align: center;
+    color:var(--main-color);
+}
+.adventure{
+    width: 170px;
+    height: 150px;
+}
+
+.figure-container{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    gap: 20px;
+    padding: 20px;
+    max-width: 1400px;
+    width: auto;
+    height: auto;
+    flex-wrap: wrap;
+    
+    justify-content: center;
+    align-items: center;
+        
+}
+figure{
+        margin: 0; /* Remove default margin */
+        text-align: center; /* Center the text */
+        background-color: #fff; /* White background for figures */
+        border: 3px solid var(--main-color); /* Light border */
+        border-radius: 8px; /* Rounded corners */
+        padding: 10px; /* Padding inside figures */
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Light shadow */
+}
+figcaption {
+    margin-top: 5px; /* Space between image and caption */
+    font-size: 14px; /* Smaller font size for caption */
+    color: #333; /* Dark color for caption */
+}
+            
