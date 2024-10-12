@@ -169,4 +169,16 @@ figcaption {
     font-family: Arial, Helvetica, sans-serif;
     font-size: larger;
 }
+
+h2:hover{
+    background-color: #505033;
+    color: #d7d7ce;
+    padding:10px;
+}
+#adventures:hover{
+    background-color: #505033;
+    color: #d7d7ce;
+    padding:10px;
+}
+
             
