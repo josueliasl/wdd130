@@ -1,0 +1,100 @@
+*{
+  margin:0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body{
+    font-family: "Afacad Flux", sans-serif;
+    font-size: 1.2em;
+    font-weight: weight;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+header{
+    color:navy;
+    font-size: 1.5em;
+    text-align: center;
+}
+form{
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border:transparent;
+    background-color: rgb(228, 226, 226);
+    border-radius: 0.5rem;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+fieldset{
+    display: grid;
+    grid-gap:.5rem;
+    margin: 1rem;
+    justify-content: center;
+    align-items: center;
+    width:580px;
+    border-color: rgb(247, 246, 246);
+    padding-right: 20px;
+}
+legend{
+    color: navy;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.3em;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+input, select, textarea{
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+button{
+    background-color: navy;
+    text-align: center;
+    color: white;
+    font-size: 1.2rem;
+    width:150px;
+    border-radius: 0.5rem;
+    padding: .75rem;
+    border: none;
+    
+}
+footer{
+    text-align: center;
+    color: rgb(142, 139, 139);
+    margin: 1rem auto 0;
+    width: 650px;
+    font-size: 0.8em;
+    border-top: 2px solid #ccc;
+    padding-top: 3px;
+}
+label{
+    text-align: right;
+    padding-right: 1rem;
+}
+input[type='checkbox']{
+    width:22px;
+    height: 22px;
+    vertical-align: bottom;
+}
+.for-item{
+    display: grid;
+    align-items: center;
+}
+.column1{
+    grid-template-columns: 3fr 1fr;
+    margin: 0.5rem 0;
+}
+.column2{
+    grid-template-columns: 1fr 2fr;
+}
+.feedback{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+#feedback{
+    width:500px;
+}
