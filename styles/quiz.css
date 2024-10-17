@@ -6,7 +6,7 @@
 body{
     font-family: "Afacad Flux", sans-serif;
     font-size: 1.2em;
-    font-weight: weight;
+
     display: flex;
     flex-direction: column;
     align-content: center;
