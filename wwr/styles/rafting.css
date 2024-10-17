@@ -246,3 +246,61 @@ b{
     font-size: larger;
 
 }
+form{
+    border: 0rem;
+    margin: 0rem;
+    padding: 1rem;
+    width:750px;
+    max-height: 600px;
+    box-shadow:0 0 2px gray;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    width:100%;
+    height:100%;
+    margin:auto;
+    justify-content: center;
+    align-items: center;
+}
+label{
+    padding: 8px;
+}
+button{
+    background-color: var(--main-color);
+    padding:10px;
+    outline:white;
+    color: var(--accent1-color);
+    font-size: larger;
+    width:190px;
+    align-self: center;
+    margin-top: 8px;
+    
+}
+button:hover{
+    background-color: var(--accent1-color);
+    color: var(--main-color);
+}
+fieldset{
+    display: flex;
+    flex-direction: column;
+    border-color: var(--main-color);
+    width:400px
+    
+}
+.c-questions{
+    color: red;
+}
+input{
+    padding: 6px;
+}
+#p-purpose{
+    font-size: medium;
+    align-self: flex-start;
+    margin-left: 0;
+    margin-right: 0;
+}
+textarea{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
