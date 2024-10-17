@@ -30,13 +30,17 @@ h2{
     display: flex;
     justify-content: space-between;
     gap: 20px;
+    color: #cfcfb4;
     
 }
-a{
+.icon{
     text-decoration: none;
     display: flex;
     justify-content: space-between;
     color:#d7d7ce;
+    width:40px;
+    height: 40px;
+    background-color: var(--main-color);
 }
 a:hover{
     background-color: var(--accent1-color);
@@ -161,7 +165,7 @@ article{
     align-items: center;
         
 }
-figure{
+.figure-about{
         margin: 0;
     text-align: center; 
         background-color: var(--accent1-color); 
@@ -188,9 +192,57 @@ h2:hover{
     color: #d7d7ce;
     padding:10px;
 }
-.icon{
-    width:40px;
-    height: 40px;
-    background-color: var(--main-color);
+
+/*Contact Us styles*/  
+
+b{
+    color: var(--accent1-color);
 }
-            
+#main-contact{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    font-size: larger;
+    padding: 3px;
+}
+#email{
+    color: var(--accent1-color);
+    
+}
+#email:hover{
+    color: var(--main-color);
+    
+}
+.page-color{
+    color: var(--accent1-color);
+    text-decoration: none;
+}
+.map{
+    justify-self: center;
+}
+.info{
+    background: var(--main-color);
+    color:var(--accent1-color)
+}
+.aside-contact{
+    background-color: var(--accent1-color);
+    margin-top: 0;
+    padding: 15px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+#h2-contact{
+    grid-column: 1/4;
+}
+.employee{
+    width:160px;
+    height:160px;
+    border-radius: 100%;
+}
+.figure-contact{
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    font-size: larger;
+
+}
