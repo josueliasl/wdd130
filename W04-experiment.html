@@ -1,0 +1,125 @@
+<style>
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	margin: 1rem;
+	font-family: "Open Sans", sans-serif;
+}
+
+div {
+	margin: 1rem;
+	border: 1px dashed;
+	padding: 1rem;
+}
+
+.one {
+	width: 200px;
+	height: 200px;
+}
+
+.flex {
+	background-color: #aba;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+	/* write declarations here */
+	
+}
+
+.grid {
+	background-color: #abb;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+	/* enter declarations here */
+	
+}
+
+.container2 {
+	display: flex;
+    justify-content: space-around;
+
+}
+
+.two {
+	background-color: #ace;
+	height: 100px;
+}
+
+.container3 {
+	padding: 0;
+	display: grid;
+    grid-template-columns: 1fr, 1fr, 1fr;
+
+}
+
+.columns-3 {
+	grid-column: 1/4;
+
+}
+
+.three {
+	margin: .25rem;
+	background-color: #abd;
+}
+/*#first{
+    align-content: center;
+    display: flex;
+    justify-content: center;
+}*/
+
+</style>
+
+<h1>Layout Exercises</h1>
+<hr>
+<p>✅ 1. Center the paragraph content both horiztontally and vertically with each div using CSS Flex or CSS Grid.</p>
+<div class="one flex">
+    <p id="first">Use CSS Flex</p>
+</div>
+<div class="one grid">
+    <p id="second">Use CSS Grid</p>
+</div>
+<hr>
+<p>✅ 2. Create a single row of div items within the container div, if the screen is wide enough. Otherwise design the
+    divs to stack within the given width space. Make sure there is equal space between items and the sides.</p>
+<div class="container2">
+    <div class="two">
+        <p>Item 1</p>
+    </div>
+    <div class="two">
+        <p>Item 2</p>
+    </div>
+    <div class="two">
+        <p>Item 3</p>
+    </div>
+</div>
+<hr>
+<p>✅ 3. Create a table using grid where the first row spans the three columns. </p>
+<div class="container3">
+    <div class="three columns-3">
+        <p>Title</p>
+    </div>
+    <div class="three">
+        <p>Cell 1</p>
+    </div>
+    <div class="three">
+        <p>Cell 2</p>
+    </div>
+    <div class="three">
+        <p>Cell 3</p>
+    </div>
+    <div class="three">
+        <p>Cell 4</p>
+    </div>
+    <div class="three">
+        <p>Cell 5</p>
+    </div>
+    <div class="three">
+        <p>Cell 6</p>
+    </div>
+
+</div>

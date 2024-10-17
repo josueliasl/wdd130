@@ -1,0 +1,16 @@
+
+p.dotted {border: dotted;}
+p.dashed {border: dashed;}
+p.solid {border: solid;}
+p.double {border: double;}
+p.groove {border: groove;}
+p.ridge {border: ridge;}
+p.inset {border: inset;}
+p.outset {border: outset;}
+p.none {border: none;}
+p.hidden {border: hidden;}
+p.mix {border-style: dotted dashed solid double;}
+
+p{
+    color:red;
+}

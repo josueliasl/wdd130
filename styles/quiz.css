@@ -1,0 +1,74 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Afacad Flux", sans-serif;
+    font-size: 1.2em;
+
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+form{
+    max-width: 650px;
+    margin: 0 auto;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    padding: 1rem;
+    border: solid rgb(219, 218, 218);
+    background-color: rgb(219, 218, 218);
+
+
+}
+fieldset{
+    background-color: rgb(219, 218, 218);
+    width:650px;
+    display: grid;
+    border-color: transparent;
+    padding:20px;
+
+}
+#q3{
+    font-size: large;
+    padding: 3px;
+}
+.q4{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    gap: 15px;
+    font-size: large;
+}
+#q4{
+    width: 600px;
+    padding: 8px;
+}
+#q1, #q2{
+    padding: 6px;
+}
+button{
+    padding: 10px;
+    background-color: navy;
+    color: white;
+    font-size: large;
+    margin: 10px;
+    border-radius: 600px;
+    border-color: navy;
+}
+label{padding: 10px;
+font-size: larger;}
+main{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    color: navy;
+}
+b{
+    color: navy;
+}
