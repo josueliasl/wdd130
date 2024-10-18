@@ -194,7 +194,10 @@ h2:hover{
 }
 
 /*Contact Us styles*/  
-
+#address:hover{
+    background-color: var(--accent1-color);
+    color: var(--main-color);
+}
 b{
     color: var(--accent1-color);
 }
@@ -204,8 +207,9 @@ b{
     font-size: larger;
     padding: 3px;
 }
-#email{
+#email, #address{
     color: var(--accent1-color);
+    text-decoration: none;
     
 }
 #email:hover{
